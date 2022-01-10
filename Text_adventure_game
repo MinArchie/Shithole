@@ -368,7 +368,7 @@ def take_crowbar():
         elif take_the_crowbar == "no":
             print("You leave the Crowbar in the Terrace.")
             terrace()
-        elif direction == "quit":
+        elif take_the_crowbar == "quit":
             print()
             print("GAME TERMINATING...")
             exit()
@@ -512,7 +512,7 @@ def take_spray():
             print(inventory)
             print("You head back to the waiting_area")
             waiting_area()
-        elif direction == "quit":
+        elif take_the_spray == "quit":
             print()
             print("GAME TERMINATING...")
             exit()
@@ -527,7 +527,7 @@ def take_spray():
         print("You leave the Bug spray in the cabinet.")
         print("You head back to the waiting_area")
         waiting_area()
-    elif direction == "quit":
+    elif take_the_spray == "quit":
         print()
         print("GAME TERMINATING...")
         exit()
@@ -625,7 +625,7 @@ def deny():
                 print()
                 print("You wake up in the white room, yet again.")
                 white_room()
-            elif direction == "quit":
+            elif defend == "quit":
                 print()
                 print("GAME TERMINATING...")
                 exit()
@@ -643,7 +643,7 @@ def deny():
         print()
         print("You wake up in the white room.")
         white_room()
-    elif direction == "quit":
+    elif decide == "quit":
         print()
         print("GAME TERMINATING...")
         exit()
@@ -734,7 +734,7 @@ def buzz():
             print("You wake up in the white room.")
             print("Maybe next time you should find something to defend yourself with...")
             white_room()
-        elif direction == "quit":
+        elif decide == "quit":
             print()
             print("GAME TERMINATING...")
             exit()
@@ -761,7 +761,7 @@ def buzz():
                 print()
                 print("You wake up, again in the white room.")
                 white_room()
-            elif direction == "quit":
+            elif defend == "quit":
                 print()
                 print("GAME TERMINATING...")
                 exit()
@@ -780,7 +780,7 @@ def buzz():
         print()
         print("You wake up in the white room.")
         white_room()
-    elif direction == "quit":
+    elif decide == "quit":
         print()
         print("GAME TERMINATING...")
         exit()
